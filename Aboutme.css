@@ -16,9 +16,9 @@ body, html {
 
 body {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     width: 100%;
-    min-height: 100vh; 
+    min-height: 100vh;
     align-items: center;
     justify-content: flex-start;
     background-image: url('laptop.avif');
@@ -31,7 +31,7 @@ body {
 .container{
 	display: flex;
 	flex-direction: column;
-	margin-top: 25vh; 
+	margin-top: 25vh;
 	width: 700px;
 	height: 60vh;
 	border-radius: 10px;
@@ -68,16 +68,16 @@ body {
 .full-width-line {
 	border: none;
 	height: 1px;
-	background-color : #fff; 
-	width: calc(100% - 60px); 
-	margin-left: 10px; 
+	background-color : #fff;
+	width: calc(100% - 60px);
+	margin-left: 10px;
   }
 
   .inline-header {
-    display: inline; 
+    display: inline;
 }
 
-  
+
 .container .brand a i{
 	color: var(--primaer-color);
 	font-size: 30px;
@@ -103,5 +103,5 @@ body {
 	font-size: 90%;
 	font-weight: 300;
   }
-  
+
 
